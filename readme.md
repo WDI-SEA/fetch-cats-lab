@@ -54,6 +54,14 @@ It is important to break down any development project in to smaller pieces and t
 * Add some interesting style / animation
 * Create button to stop animation (tip: use [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/clearInterval)).
 
+##Example Screenshots
+
+![Slide 1](./ajaxexample1.jpg)
+
+---
+
+![Slide 2](./ajaxexample2.jpg)
+
 
 ##Bonus
 
