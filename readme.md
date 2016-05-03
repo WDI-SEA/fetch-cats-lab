@@ -13,6 +13,13 @@ If you want to ensure that you do not get NSFW (Not Safe For Work) items. You ca
 [http://www.reddit.com/search.json?q=cats nsfw:no](http://www.reddit.com/search.json?q=cats+nsfw:no)
 
 
+##Getting Started
+
+* Fork and clone this repository
+* Run `npm install` to install dependencies
+  * `npm start` - start the BrowserSync server
+  * `npm run lint:css` - lint CSS
+  * `npm run lint:js` - lint JS
 
 ##User Experience
 
@@ -43,7 +50,7 @@ If you want to ensure that you do not get NSFW (Not Safe For Work) items. You ca
 
 It is important to break down any development project in to smaller pieces and tackle them one at a time. Here is a list of how you might want to attack this project.
 
-* Create your form (html / css)
+* Create your form (HTML/CSS)
 * Prevent default and show an alert on form submit
 * Use AJAX to make a request. Show data in console
 * Create an array of image URLs (tip: use [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) and [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
