@@ -4,14 +4,11 @@ We are going to use what we've learned so far to create a basic slideshow using 
 
 ####Content Warning
 
-Reddit sometimes contains some offensive images be careful with your search terms.
-
-If you want to ensure that you do not get NSFW (Not Safe For Work) items. You can filter it by adding "nsfw:no" to the end of the search query.
+Reddit sometimes contains some offensive images be careful with your search terms. If you want to ensure that you do not get NSFW (Not Safe For Work) items. You can filter it by adding "nsfw:no" to the end of the search query.
 
 **Example**
 
-[http://www.reddit.com/search.json?q=cats nsfw:no](http://www.reddit.com/search.json?q=cats+nsfw:no)
-
+http://www.reddit.com/search.json?q=cats nsfw:no
 
 ##Getting Started
 
@@ -21,16 +18,16 @@ If you want to ensure that you do not get NSFW (Not Safe For Work) items. You ca
   * `npm run lint:css` - lint CSS
   * `npm run lint:js` - lint JS
 
-##User Experience
+##Requirements/User Experience
 
-**Page should load with**
+####Page should load with
 
 * Some sort of title
 * A short description telling the user what to do
 * A blank text field
 * A Button ("start" or "go" or "search")
 
-**When the user enters a search term and presses enter (or clicks the button)**
+####When the user enters a search term and presses enter
 
 * The form / title / description should hide
 * Show a loading message (optional)
@@ -39,7 +36,7 @@ If you want to ensure that you do not get NSFW (Not Safe For Work) items. You ca
 * Show a button to stop / reset the animation
 * Repeat animation until use clicks "stop"
 
-**When the user clicks the "stop" button**
+####When the user clicks the "stop" button
 
 * Animation stops / images are removed
 * Form / title / description are shown again
@@ -61,7 +58,7 @@ It is important to break down any development project in to smaller pieces and t
 * Add some interesting style / animation
 * Create button to stop animation (tip: use [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/clearInterval)).
 
-##Example Screenshots
+##Example Deliverables
 
 ![Slide 1](./ajaxexample1.jpg)
 
@@ -72,12 +69,5 @@ It is important to break down any development project in to smaller pieces and t
 
 ##Bonus
 
-Use Additional jQuery animation plugins
-
-[jQuery Animation plugins](http://plugins.jquery.com/tag/animation/)
-
-##Extra Bonus
-
-Once you get through the initial list of pictures make another AJAX request using the `after` query parameter to get the next page of results.
-
-[reddit search api documentation](https://www.reddit.com/dev/api#GET_search)
+* Use Additional jQuery animation plugins
+  * [jQuery Animation plugins](http://plugins.jquery.com/tag/animation/)
