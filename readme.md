@@ -6,7 +6,7 @@ We are going to use what we've learned so far to create a basic slideshow using 
 
 Reddit sometimes contains some offensive images be careful with your search terms. If you want to ensure that you do not get NSFW (Not Safe For Work) items. You can filter it by adding "nsfw:no" to the end of the search query.
 
-**Example:** http://www.reddit.com/search.json?q=cats nsfw:no
+**Example:** http://www.reddit.com/search.json?q=cats+nsfw:no
 
 ##Getting Started
 
@@ -46,14 +46,14 @@ Reddit sometimes contains some offensive images be careful with your search term
 It is important to break down any development project in to smaller pieces and tackle them one at a time. Here is a list of how you might want to attack this project.
 
 * Create your form (HTML/CSS)
-* Prevent default and show an alert on form submit
+* Prevent default form submission and verify that you can type something into the form
 * Use AJAX to make a request. Show data in console
   * **IMPORTANT NOTE:** You'll need to set `crossDomain: true` in your AJAX request. Otherwise, you'll get a cross origin error. See documentation here: http://api.jquery.com/jquery.ajax/
 * Create an array of image URLs (tip: use [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) and [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
 * Make the form / title / description hide
 * Cycle through images
     * tip: use [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval)
-    * Maybe just set the src attribute of a single image tag for now
+    * Either add images, or change the `src` of a single image tag
 * Add some interesting style / animation
 * Create button to stop animation (tip: use [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/clearInterval)).
 
