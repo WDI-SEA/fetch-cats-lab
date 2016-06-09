@@ -59,11 +59,11 @@ It is important to break down any development project in to smaller pieces and t
 
 ##Example Deliverables
 
-![Slide 1](./ajaxexample1.jpg)
+![Slide 1](./examples/ajaxexample1.jpg)
 
 ---
 
-![Slide 2](./ajaxexample2.jpg)
+![Slide 2](./examples/ajaxexample2.jpg)
 
 
 ##Bonus
