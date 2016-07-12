@@ -69,3 +69,9 @@ It is important to break down any development project in to smaller pieces and t
 
 * Use Additional jQuery animation plugins
   * [jQuery Animation plugins](http://plugins.jquery.com/tag/animation/)
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
