@@ -10,7 +10,7 @@
 
 We are going to use what we've learned so far to display a list of images from a fetch request to the [Cats API](https://thecatapi.com/). Take some time to look through the documentation and see if you can make a request from your browser for a list of images. Can you limit the number of results to 10?
 
-<details open>
+<details>
 <summary>Need some help?</summary>
 <br>
 https://api.thecatapi.com/v1/images/search?limit=10
