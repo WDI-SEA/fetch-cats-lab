@@ -14,7 +14,7 @@ We are going to use what we've learned so far to display a list of images from a
 <summary>Need some help?</summary>
 <br>
 https://api.thecatapi.com/v1/images/search?limit=10
-<details>
+</details>
 
 ### Requirements
 
