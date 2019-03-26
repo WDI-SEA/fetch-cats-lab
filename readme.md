@@ -36,7 +36,7 @@ It is important to break down any development project into smaller pieces and ta
 
 ## Bonus
 
-* Use a jQuery plug-in to render the photos in a carousel or other cool feature.
+* Use a plug-in or framework to render the photos in a carousel or other cool feature.
 
 ---
 
