@@ -2,16 +2,12 @@
 
 ## Getting Started
 
-* Fork and clone this repository
-* Run `npm install` to install dependencies
-  * `npm start` - start the BrowserSync server
-  * `npm run lint:css` - lint CSS
-  * `npm run lint:js` - lint JS
+**Fork and clone this repository!**
 
-We are going to use what we've learned so far to display a list of images from a fetch request to the [Cats API](https://thecatapi.com/). Take some time to look through the documentation and see if you can make a request from your browser for a list of images. Can you limit the number of results to 10?
+We are going to use what we've learned so far to display a list of images from a fetch request to the [Cats API](https://thecatapi.com/). Take some time to look through the documentation and see if you can make a request from your browser for a list of images. Take a quick peek at their docs. Can you find the base url for this API? Can you limit the number of results to 10? What does the query string look like?
 
 <details>
-<summary>Need some help?</summary>
+<summary>Click to reveal answer!</summary>
 <br>
 https://api.thecatapi.com/v1/images/search?limit=10
 </details>
