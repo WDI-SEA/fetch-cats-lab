@@ -9,7 +9,7 @@
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^6.0.4",
-    "browser-sync": "^2.12.5",
+    "browser-sync": "^2.29.1",
     "csslint": "^0.10.0",
     "eslint": "^2.9.0",
     "eslint-config-airbnb": "^8.0.0",
